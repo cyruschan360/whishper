@@ -6,8 +6,59 @@
 		<meta name="viewport" content="width=device-width" />
 		<title>Whishper</title>
 		%sveltekit.head%
+
+		<!-- Buymeacoffee -->
+		<script src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+		data-name="BMC-Widget"
+		data-cfasync="false"
+		data-id="giganticwork"
+		data-description="Your support moves us forward and makes the site sustainable."
+		data-message="Your support moves us forward and makes the site sustainable."
+		data-color="#40DCA5"
+		data-position="Right"
+		data-x_margin="18"
+		data-y_margin="18"></script>
+		<!-- End of Buymeacoffee -->
+	
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-2TWT9G153G"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+	
+		  gtag('config', 'G-2TWT9G153G');
+		</script>
+		<!-- End of Google tag (gtag.js) -->
+	
+		<!-- Google AdSense -->
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4392666856868592"
+		crossorigin="anonymous"></script>
+		<!-- End of Google AdSense -->
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
+		<!-- Whishper -->
+		<script>
+			let ins = document.createElement("ins");
+			ins.classList.add("adsbygoogle");
+			ins.setAttribute("style", "display:block;text-align:center;");
+			ins.setAttribute("data-ad-client", "ca-pub-4392666856868592");
+			ins.setAttribute("data-ad-slot", "6420771480");
+			ins.setAttribute("data-ad-format", "auto");
+			ins.setAttribute("data-full-width-responsive", "true");
+			document.body.append(ins);
+			(adsbygoogle = window.adsbygoogle || []).push({});
+
+			(function () {
+				const newTranscriptBtn = document.querySelector('main');
+				newTranscriptBtn.onclick = (event) => {
+					const modelSelect = document.getElementsByName('modelSize')[0];
+					modelSelect.selectedIndex = modelSelect.options.length - 1;
+
+					//modalNewTranscription.showModal();
+				};
+			})();			
+		</script>
 	</body>
 </html>

@@ -7,7 +7,7 @@
 
 	let errorMessage = '';
 	let disableSubmit = true;
-	let modelSize = 'small';
+	let modelSize = 'large-v3';
 	let language = 'auto';
 	let sourceUrl = '';
 	let fileInput;
@@ -42,15 +42,15 @@
 		'zh'
 	];
 	let models = [
-		'tiny',
-		'tiny.en',
-		'base',
-		'base.en',
-		'small',
-		'small.en',
-		'medium',
-		'medium.en',
-		'large-v2',
+		//'tiny',
+		//'tiny.en',
+		//'base',
+		//'base.en',
+		//'small',
+		//'small.en',
+		//'medium',
+		//'medium.en',
+		//'large-v2',
 		'large-v3'
 	];
 	// Sort the languages
