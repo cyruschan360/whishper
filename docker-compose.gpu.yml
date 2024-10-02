@@ -51,6 +51,7 @@ services:
     env_file:
       - .env
     volumes:
+      - ./frontend/src/app.html:/app/frontend/src/app.html
       - ./whishper_data/uploads:/app/uploads
       - ./whishper_data/logs:/var/log/whishper
     container_name: whishper
