@@ -8,7 +8,7 @@ require (
 	github.com/gofiber/fiber/v2 v2.50.0
 	github.com/rs/zerolog v1.30.0
 	github.com/snakesel/libretranslate v0.0.2
-	github.com/wader/goutubedl v0.0.0-20230817095831-89e825670ccd
+	github.com/wader/goutubedl v2.1.0
 	go.mongodb.org/mongo-driver v1.12.1
 )
 
